@@ -408,7 +408,7 @@ msgid "All emails and events linked to this account will be deleted"
 msgstr "Όλα τα emails και τα γεγονότα που συνδέονται με αυτόν τον λογαριασμό θα διαγραφούν"
 
 #. js-lingui-id: 623MHa
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "All lines"
 msgstr "Όλες οι γραμμές"
 
@@ -1063,8 +1063,8 @@ msgstr "Αντιγράψτε αυτό το κλειδί γιατί δεν θα �
 
 #. js-lingui-id: SGsgDO
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
-msgid "Core"
-msgstr "Πυρήνας"
+#~ msgid "Core"
+#~ msgstr "Πυρήνας"
 
 #. js-lingui-id: w5Stxm
 #: src/modules/spreadsheet-import/steps/components/ValidationStep/ValidationStep.tsx
@@ -1336,7 +1336,7 @@ msgid "Deactivate Workflow"
 msgstr "Απενεργοποίηση Workflow"
 
 #. js-lingui-id: yAT3be
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "Deactivated"
 msgstr "Απενεργοποιημένο"
 
@@ -2046,7 +2046,7 @@ msgstr ""
 #~ msgstr "Αποτυχία επαλήθευσης του κλειδιού API. Παρακαλώ ελέγξτε το κλειδί σας και δοκιμάστε ξανά."
 
 #. js-lingui-id: ocUvR+
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "False"
 msgstr "Ψευδής"
@@ -2114,17 +2114,17 @@ msgid "Finnish"
 msgstr "Φινλανδικά"
 
 #. js-lingui-id: ZyIk6Y
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 10 lines"
 msgstr "Πρώτες 10 γραμμές"
 
 #. js-lingui-id: I3hko2
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 2 lines"
 msgstr "Πρώτες 2 γραμμές"
 
 #. js-lingui-id: BDDkm3
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 5 lines"
 msgstr "Πρώτες 5 γραμμές"
 
@@ -2253,6 +2253,7 @@ msgstr ""
 #~ msgstr "Παραχωρήστε στην υποστήριξη του Twenty προσωρινή πρόσβαση στον χώρο εργασίας σας, ώστε να μπορούμε να διαγνώσουμε προβλήματα ή να ανακτήσουμε περιεχόμενο για λογαριασμό σας. Μπορείτε να ανακαλέσετε την πρόσβαση ανά πάσα στιγμή."
 
 #. js-lingui-id: gBiL6J
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "GraphQL"
 msgstr "GraphQL"
@@ -2615,7 +2616,7 @@ msgid "Japanese"
 msgstr "Ιαπωνικά"
 
 #. js-lingui-id: OGXtL8
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Kanban"
 msgstr "Κανμπάν"
@@ -2638,7 +2639,7 @@ msgid "Language"
 msgstr "Γλώσσα"
 
 #. js-lingui-id: DU27lO
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 1 hour"
 msgstr "Τελευταία 1 ώρα"
 
@@ -2648,7 +2649,7 @@ msgid "Last 1 Hour (oldest → newest)"
 msgstr "Τελευταία 1 Ώρα (παλιότερα → νεότερα)"
 
 #. js-lingui-id: XUlP/Y
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 12 hours"
 msgstr "Τελευταίες 12 ώρες"
 
@@ -2663,7 +2664,7 @@ msgid "Last 24 Hours (oldest → newest)"
 msgstr "Τελευταίες 24 Ώρες (παλιότερα → νεότερα)"
 
 #. js-lingui-id: gdAJ4I
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 4 hours"
 msgstr "Τελευταίες 4 ώρες"
 
@@ -2848,7 +2849,6 @@ msgstr "Συγχρονισμός Μηνημάτων"
 #~ msgstr "Message Sync Status"
 
 #. js-lingui-id: 6GBt0m
-#: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
 #: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
@@ -3242,7 +3242,7 @@ msgid "Notes"
 msgstr ""
 
 #. js-lingui-id: HptUxX
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Number"
 msgstr "Αριθμός"
 
@@ -3412,7 +3412,7 @@ msgid "Percent not empty"
 msgstr "Ποσοστό μη άδειο"
 
 #. js-lingui-id: /roQKz
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Percentage"
 msgstr "Ποσοστό"
 
@@ -3693,6 +3693,7 @@ msgstr "Επαναφορά σε"
 
 #. js-lingui-id: WHiaOl
 #: src/pages/settings/developers/playground/SettingsRestPlayground.tsx
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "REST"
 msgstr "REST"
@@ -4326,7 +4327,7 @@ msgid "System Settings - {systemTimeFormatLabel}"
 msgstr "Ρυθμίσεις Συστήματος - {systemTimeFormatLabel}"
 
 #. js-lingui-id: 4hJhzz
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Table"
 msgstr "Πίνακας"
@@ -4491,7 +4492,7 @@ msgid "This role is assigned to these workspace members."
 msgstr "Αυτός ο ρόλος έχει ανατεθεί σε αυτά τα μέλη του χώρου εργασίας."
 
 #. js-lingui-id: yByRxz
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "This week"
 msgstr "Αυτή την εβδομάδα"
 
@@ -4521,7 +4522,7 @@ msgstr "Η χρονική σήμανση και οι συμμετέχοντες 
 #~ msgstr "σε ετήσια"
 
 #. js-lingui-id: ecUA8p
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Today"
 msgstr "Σήμερα"
 
@@ -4552,7 +4553,7 @@ msgstr "Τύπος Εναύσματος"
 #~ msgstr "Trigger type should be Manual - when no record(s) are selected"
 
 #. js-lingui-id: c+xCSz
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "True"
 msgstr "Αληθής"

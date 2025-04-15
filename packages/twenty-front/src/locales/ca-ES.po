@@ -408,7 +408,7 @@ msgid "All emails and events linked to this account will be deleted"
 msgstr "Tots els correus electrònics i esdeveniments vinculats a aquest compte seran eliminats"
 
 #. js-lingui-id: 623MHa
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "All lines"
 msgstr "Totes les línies"
 
@@ -1063,8 +1063,8 @@ msgstr "Copia aquesta clau ja que no serà visible de nou"
 
 #. js-lingui-id: SGsgDO
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
-msgid "Core"
-msgstr "Nucli"
+#~ msgid "Core"
+#~ msgstr "Nucli"
 
 #. js-lingui-id: w5Stxm
 #: src/modules/spreadsheet-import/steps/components/ValidationStep/ValidationStep.tsx
@@ -1336,7 +1336,7 @@ msgid "Deactivate Workflow"
 msgstr "Desactiva el Flux de treball"
 
 #. js-lingui-id: yAT3be
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "Deactivated"
 msgstr "Desactivat"
 
@@ -2046,7 +2046,7 @@ msgstr ""
 #~ msgstr "No s'ha pogut validar la clau API. Comproveu la vostra clau API i torneu-ho a intentar."
 
 #. js-lingui-id: ocUvR+
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "False"
 msgstr "Fals"
@@ -2114,17 +2114,17 @@ msgid "Finnish"
 msgstr "Finès"
 
 #. js-lingui-id: ZyIk6Y
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 10 lines"
 msgstr "Primeres 10 línies"
 
 #. js-lingui-id: I3hko2
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 2 lines"
 msgstr "Primeres 2 línies"
 
 #. js-lingui-id: BDDkm3
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 5 lines"
 msgstr "Primeres 5 línies"
 
@@ -2253,6 +2253,7 @@ msgstr ""
 #~ msgstr "Concedeix a l'equip de suport de Twenty accés temporal al teu espai de treball per poder solucionar problemes o recuperar contingut en el teu nom. Pots revocar l'accés en qualsevol moment."
 
 #. js-lingui-id: gBiL6J
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "GraphQL"
 msgstr "GraphQL"
@@ -2615,7 +2616,7 @@ msgid "Japanese"
 msgstr "Japonès"
 
 #. js-lingui-id: OGXtL8
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Kanban"
 msgstr "Kanban"
@@ -2638,7 +2639,7 @@ msgid "Language"
 msgstr "Idioma"
 
 #. js-lingui-id: DU27lO
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 1 hour"
 msgstr "Última 1 hora"
 
@@ -2648,7 +2649,7 @@ msgid "Last 1 Hour (oldest → newest)"
 msgstr "Darrera 1 Hora (més antic → més nou)"
 
 #. js-lingui-id: XUlP/Y
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 12 hours"
 msgstr "Últimes 12 hores"
 
@@ -2663,7 +2664,7 @@ msgid "Last 24 Hours (oldest → newest)"
 msgstr "Darreres 24 Hores (més antic → més nou)"
 
 #. js-lingui-id: gdAJ4I
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 4 hours"
 msgstr "Últimes 4 hores"
 
@@ -2848,7 +2849,6 @@ msgstr "Sincronització de missatges"
 #~ msgstr "Message Sync Status"
 
 #. js-lingui-id: 6GBt0m
-#: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
 #: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
@@ -3242,7 +3242,7 @@ msgid "Notes"
 msgstr ""
 
 #. js-lingui-id: HptUxX
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Number"
 msgstr "Número"
 
@@ -3412,7 +3412,7 @@ msgid "Percent not empty"
 msgstr "Percentatge no buit"
 
 #. js-lingui-id: /roQKz
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Percentage"
 msgstr "Percentatge"
 
@@ -3693,6 +3693,7 @@ msgstr "Reinicia a"
 
 #. js-lingui-id: WHiaOl
 #: src/pages/settings/developers/playground/SettingsRestPlayground.tsx
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "REST"
 msgstr "DESCANS"
@@ -4326,7 +4327,7 @@ msgid "System Settings - {systemTimeFormatLabel}"
 msgstr "Configuració del Sistema - {systemTimeFormatLabel}"
 
 #. js-lingui-id: 4hJhzz
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Table"
 msgstr "Taula"
@@ -4491,7 +4492,7 @@ msgid "This role is assigned to these workspace members."
 msgstr "Aquest rol està assignat a aquests membres de l'espai de treball."
 
 #. js-lingui-id: yByRxz
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "This week"
 msgstr "Aquesta setmana"
 
@@ -4521,7 +4522,7 @@ msgstr "La marca de temps i els participants seran compartits amb el teu equip."
 #~ msgstr "a anual"
 
 #. js-lingui-id: ecUA8p
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Today"
 msgstr "Avui"
 
@@ -4552,7 +4553,7 @@ msgstr "Tipus de desencadenador"
 #~ msgstr "Trigger type should be Manual - when no record(s) are selected"
 
 #. js-lingui-id: c+xCSz
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "True"
 msgstr "Cert"

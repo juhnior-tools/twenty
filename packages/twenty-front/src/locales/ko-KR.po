@@ -408,7 +408,7 @@ msgid "All emails and events linked to this account will be deleted"
 msgstr "이 계정에 연결된 모든 이메일 및 이벤트가 삭제됩니다"
 
 #. js-lingui-id: 623MHa
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "All lines"
 msgstr "모든 줄"
 
@@ -1063,8 +1063,8 @@ msgstr "이 키는 다시 표시되지 않으므로 복사하세요"
 
 #. js-lingui-id: SGsgDO
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
-msgid "Core"
-msgstr "코어"
+#~ msgid "Core"
+#~ msgstr "코어"
 
 #. js-lingui-id: w5Stxm
 #: src/modules/spreadsheet-import/steps/components/ValidationStep/ValidationStep.tsx
@@ -1336,7 +1336,7 @@ msgid "Deactivate Workflow"
 msgstr "워크플로 비활성화"
 
 #. js-lingui-id: yAT3be
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "Deactivated"
 msgstr "비활성화됨"
 
@@ -2046,7 +2046,7 @@ msgstr ""
 #~ msgstr "API 키를 검증하지 못했습니다. API 키를 확인하고 다시 시도하십시오."
 
 #. js-lingui-id: ocUvR+
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "False"
 msgstr "거짓"
@@ -2114,17 +2114,17 @@ msgid "Finnish"
 msgstr "핀란드어"
 
 #. js-lingui-id: ZyIk6Y
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 10 lines"
 msgstr "처음 10줄"
 
 #. js-lingui-id: I3hko2
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 2 lines"
 msgstr "처음 2줄"
 
 #. js-lingui-id: BDDkm3
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 5 lines"
 msgstr "처음 5줄"
 
@@ -2253,6 +2253,7 @@ msgstr ""
 #~ msgstr "Twenty 지원팀에 임시 접근 권한을 부여하여 문제를 해결하거나 콘텐츠를 복구할 수 있도록 하세요. 언제든지 접근 권한을 취소할 수 있습니다."
 
 #. js-lingui-id: gBiL6J
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "GraphQL"
 msgstr "GraphQL"
@@ -2615,7 +2616,7 @@ msgid "Japanese"
 msgstr "일본어"
 
 #. js-lingui-id: OGXtL8
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Kanban"
 msgstr "칸반"
@@ -2638,7 +2639,7 @@ msgid "Language"
 msgstr "언어"
 
 #. js-lingui-id: DU27lO
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 1 hour"
 msgstr "지난 <b>1</b>시간"
 
@@ -2648,7 +2649,7 @@ msgid "Last 1 Hour (oldest → newest)"
 msgstr "지난 1시간 (오래된 순 → 최신 순)"
 
 #. js-lingui-id: XUlP/Y
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 12 hours"
 msgstr "지난 <b>12</b>시간"
 
@@ -2663,7 +2664,7 @@ msgid "Last 24 Hours (oldest → newest)"
 msgstr "지난 24시간 (오래된 순 → 최신 순)"
 
 #. js-lingui-id: gdAJ4I
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 4 hours"
 msgstr "지난 <b>4</b>시간"
 
@@ -2848,7 +2849,6 @@ msgstr "메시지 동기화"
 #~ msgstr "Message Sync Status"
 
 #. js-lingui-id: 6GBt0m
-#: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
 #: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
@@ -3242,7 +3242,7 @@ msgid "Notes"
 msgstr ""
 
 #. js-lingui-id: HptUxX
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Number"
 msgstr "숫자"
 
@@ -3412,7 +3412,7 @@ msgid "Percent not empty"
 msgstr "비어 있지 않은 퍼센트"
 
 #. js-lingui-id: /roQKz
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Percentage"
 msgstr "백분율"
 
@@ -3693,6 +3693,7 @@ msgstr "다음으로 재설정"
 
 #. js-lingui-id: WHiaOl
 #: src/pages/settings/developers/playground/SettingsRestPlayground.tsx
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "REST"
 msgstr "휴식"
@@ -4326,7 +4327,7 @@ msgid "System Settings - {systemTimeFormatLabel}"
 msgstr "시스템 설정 - {systemTimeFormatLabel}"
 
 #. js-lingui-id: 4hJhzz
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Table"
 msgstr "테이블"
@@ -4491,7 +4492,7 @@ msgid "This role is assigned to these workspace members."
 msgstr "이 역할은 이 워크스페이스 멤버들에게 할당되었습니다."
 
 #. js-lingui-id: yByRxz
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "This week"
 msgstr "이번 주"
 
@@ -4521,7 +4522,7 @@ msgstr "타임스탬프와 참가자가 팀과 공유됩니다."
 #~ msgstr "연간으로"
 
 #. js-lingui-id: ecUA8p
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Today"
 msgstr "오늘"
 
@@ -4552,7 +4553,7 @@ msgstr "트리거 유형"
 #~ msgstr "Trigger type should be Manual - when no record(s) are selected"
 
 #. js-lingui-id: c+xCSz
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "True"
 msgstr "참"

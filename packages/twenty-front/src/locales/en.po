@@ -403,7 +403,7 @@ msgid "All emails and events linked to this account will be deleted"
 msgstr "All emails and events linked to this account will be deleted"
 
 #. js-lingui-id: 623MHa
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "All lines"
 msgstr "All lines"
 
@@ -1058,8 +1058,8 @@ msgstr "Copy this key as it will not be visible again"
 
 #. js-lingui-id: SGsgDO
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
-msgid "Core"
-msgstr "Core"
+#~ msgid "Core"
+#~ msgstr "Core"
 
 #. js-lingui-id: w5Stxm
 #: src/modules/spreadsheet-import/steps/components/ValidationStep/ValidationStep.tsx
@@ -1331,7 +1331,7 @@ msgid "Deactivate Workflow"
 msgstr "Deactivate Workflow"
 
 #. js-lingui-id: yAT3be
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "Deactivated"
 msgstr "Deactivated"
 
@@ -2041,7 +2041,7 @@ msgstr "Extra Credits Used"
 #~ msgstr "Failed to validate API key. Please check your API key and try again."
 
 #. js-lingui-id: ocUvR+
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "False"
 msgstr "False"
@@ -2109,17 +2109,17 @@ msgid "Finnish"
 msgstr "Finnish"
 
 #. js-lingui-id: ZyIk6Y
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 10 lines"
 msgstr "First 10 lines"
 
 #. js-lingui-id: I3hko2
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 2 lines"
 msgstr "First 2 lines"
 
 #. js-lingui-id: BDDkm3
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 5 lines"
 msgstr "First 5 lines"
 
@@ -2248,6 +2248,7 @@ msgstr "Grant access to your workspace so we can troubleshoot problems."
 #~ msgstr "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
 
 #. js-lingui-id: gBiL6J
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "GraphQL"
 msgstr "GraphQL"
@@ -2610,7 +2611,7 @@ msgid "Japanese"
 msgstr "Japanese"
 
 #. js-lingui-id: OGXtL8
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Kanban"
 msgstr "Kanban"
@@ -2633,7 +2634,7 @@ msgid "Language"
 msgstr "Language"
 
 #. js-lingui-id: DU27lO
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 1 hour"
 msgstr "Last 1 hour"
 
@@ -2643,7 +2644,7 @@ msgid "Last 1 Hour (oldest → newest)"
 msgstr "Last 1 Hour (oldest → newest)"
 
 #. js-lingui-id: XUlP/Y
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 12 hours"
 msgstr "Last 12 hours"
 
@@ -2658,7 +2659,7 @@ msgid "Last 24 Hours (oldest → newest)"
 msgstr "Last 24 Hours (oldest → newest)"
 
 #. js-lingui-id: gdAJ4I
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 4 hours"
 msgstr "Last 4 hours"
 
@@ -2843,7 +2844,6 @@ msgstr "Message Sync"
 #~ msgstr "Message Sync Status"
 
 #. js-lingui-id: 6GBt0m
-#: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
 #: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
@@ -3237,7 +3237,7 @@ msgid "Notes"
 msgstr "Notes"
 
 #. js-lingui-id: HptUxX
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Number"
 msgstr "Number"
 
@@ -3407,7 +3407,7 @@ msgid "Percent not empty"
 msgstr "Percent not empty"
 
 #. js-lingui-id: /roQKz
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Percentage"
 msgstr "Percentage"
 
@@ -3688,6 +3688,7 @@ msgstr "Reset to"
 
 #. js-lingui-id: WHiaOl
 #: src/pages/settings/developers/playground/SettingsRestPlayground.tsx
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "REST"
 msgstr "REST"
@@ -4321,7 +4322,7 @@ msgid "System Settings - {systemTimeFormatLabel}"
 msgstr "System Settings - {systemTimeFormatLabel}"
 
 #. js-lingui-id: 4hJhzz
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Table"
 msgstr "Table"
@@ -4486,7 +4487,7 @@ msgid "This role is assigned to these workspace members."
 msgstr "This role is assigned to these workspace members."
 
 #. js-lingui-id: yByRxz
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "This week"
 msgstr "This week"
 
@@ -4516,7 +4517,7 @@ msgstr "Timestamp and participants will be shared with your team."
 #~ msgstr "to yearly"
 
 #. js-lingui-id: ecUA8p
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Today"
 msgstr "Today"
 
@@ -4547,7 +4548,7 @@ msgstr "Trigger Type"
 #~ msgstr "Trigger type should be Manual - when no record(s) are selected"
 
 #. js-lingui-id: c+xCSz
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "True"
 msgstr "True"

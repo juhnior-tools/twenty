@@ -408,7 +408,7 @@ msgid "All emails and events linked to this account will be deleted"
 msgstr "כל המיילים והאירועים המקושרים לחשבון זה יימחקו"
 
 #. js-lingui-id: 623MHa
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "All lines"
 msgstr "כל השורות"
 
@@ -1063,8 +1063,8 @@ msgstr "העתק מפתח זה כיוון שלא יהיה נראה שנית"
 
 #. js-lingui-id: SGsgDO
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
-msgid "Core"
-msgstr "ליבה"
+#~ msgid "Core"
+#~ msgstr "ליבה"
 
 #. js-lingui-id: w5Stxm
 #: src/modules/spreadsheet-import/steps/components/ValidationStep/ValidationStep.tsx
@@ -1336,7 +1336,7 @@ msgid "Deactivate Workflow"
 msgstr "השבת זרימת עבודה"
 
 #. js-lingui-id: yAT3be
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "Deactivated"
 msgstr "מושבת"
 
@@ -2046,7 +2046,7 @@ msgstr ""
 #~ msgstr "אימות מפתח API נכשל. אנא בדוק את מפתח ה-API ונסה שוב."
 
 #. js-lingui-id: ocUvR+
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "False"
 msgstr "שקר"
@@ -2114,17 +2114,17 @@ msgid "Finnish"
 msgstr "פינית"
 
 #. js-lingui-id: ZyIk6Y
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 10 lines"
 msgstr "10 השורות הראשונות"
 
 #. js-lingui-id: I3hko2
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 2 lines"
 msgstr "2 השורות הראשונות"
 
 #. js-lingui-id: BDDkm3
-#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/text/constants/TextDataModelSelectOptions.ts
 msgid "First 5 lines"
 msgstr "5 השורות הראשונות"
 
@@ -2253,6 +2253,7 @@ msgstr ""
 #~ msgstr "אפשרו לתמיכת Twenty גישה זמנית למרחב העבודה שלכם כדי שנוכל לאבחן בעיות או לשחזר תוכן בשמכם. באפשרותכם לשלול את הגישה בכל זמן."
 
 #. js-lingui-id: gBiL6J
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "GraphQL"
 msgstr ""
@@ -2615,7 +2616,7 @@ msgid "Japanese"
 msgstr "יפנית"
 
 #. js-lingui-id: OGXtL8
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Kanban"
 msgstr "קנבן"
@@ -2638,7 +2639,7 @@ msgid "Language"
 msgstr "שפה"
 
 #. js-lingui-id: DU27lO
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 1 hour"
 msgstr "שעה אחת אחרונה"
 
@@ -2648,7 +2649,7 @@ msgid "Last 1 Hour (oldest → newest)"
 msgstr "שעה 1 אחרונה (ישן → חדש)"
 
 #. js-lingui-id: XUlP/Y
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 12 hours"
 msgstr "12 השעות האחרונות"
 
@@ -2663,7 +2664,7 @@ msgid "Last 24 Hours (oldest → newest)"
 msgstr "24 השעות האחרונות (ישן → חדש)"
 
 #. js-lingui-id: gdAJ4I
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Last 4 hours"
 msgstr "4 השעות האחרונות"
 
@@ -2848,7 +2849,6 @@ msgstr "סנכרון הודעות"
 #~ msgstr "Message Sync Status"
 
 #. js-lingui-id: 6GBt0m
-#: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
 #: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
@@ -3242,7 +3242,7 @@ msgid "Notes"
 msgstr ""
 
 #. js-lingui-id: HptUxX
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Number"
 msgstr "מספר"
 
@@ -3412,7 +3412,7 @@ msgid "Percent not empty"
 msgstr "אחוז שאינו ריק"
 
 #. js-lingui-id: /roQKz
-#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+#: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
 msgid "Percentage"
 msgstr "אחוזים"
 
@@ -3693,6 +3693,7 @@ msgstr "\\"
 
 #. js-lingui-id: WHiaOl
 #: src/pages/settings/developers/playground/SettingsRestPlayground.tsx
+#: src/modules/settings/playground/constants/PlaygroundSetupSelectOptions.ts
 #: src/modules/settings/playground/components/PlaygroundSetupForm.tsx
 msgid "REST"
 msgstr "REST"
@@ -4326,7 +4327,7 @@ msgid "System Settings - {systemTimeFormatLabel}"
 msgstr "הגדרות מערכת - {systemTimeFormatLabel}"
 
 #. js-lingui-id: 4hJhzz
-#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/view-picker/constants/ViewPickerTypeSelectOptions.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownLayoutContent.tsx
 msgid "Table"
 msgstr "טבלה"
@@ -4491,7 +4492,7 @@ msgid "This role is assigned to these workspace members."
 msgstr "לחברים אלה במרחב העבודה יש את התפקיד המוקצה."
 
 #. js-lingui-id: yByRxz
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "This week"
 msgstr "השבוע"
 
@@ -4521,7 +4522,7 @@ msgstr "חותמת הזמן והמשתתפים ישותפו עם הצוות של
 #~ msgstr "\\"
 
 #. js-lingui-id: ecUA8p
-#: src/modules/settings/admin-panel/health-status/components/WorkerQueueMetricsSection.tsx
+#: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 msgid "Today"
 msgstr "היום"
 
@@ -4552,7 +4553,7 @@ msgstr "סוג ההפעלה"
 #~ msgstr "Trigger type should be Manual - when no record(s) are selected"
 
 #. js-lingui-id: c+xCSz
-#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/constants/BooleanDataModelSelectOptions.ts
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
 msgid "True"
 msgstr "נכון"
